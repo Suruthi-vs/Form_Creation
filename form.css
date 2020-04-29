@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    }
+.outbox{
+    display:flex;
+    height:656.5px;
+}
+.container1{
+    float:left;
+    background-image:url('container1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:50%;
+    display:flex;
+}
+.formbox{
+    float: left;
+    background:rgba(0,0,0,0.5);
+    margin:50px 100px 50px 50px;
+    justify-content: center;
+}
+input{
+    padding:10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+}
+button{
+    margin:10% 40% 0px 40%;
+    padding:5px 5px;
+}
+.container2{
+    background-image:url('container2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:50%;   
+}
+table{
+    margin-top:10%;
+    margin-left:5%;
+    text-align: center;
+
+}

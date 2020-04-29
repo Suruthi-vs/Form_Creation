@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My first Form Creation</title>
+        <link type="text/css" rel="stylesheet" href="form.css">
+    </head>
+
+    <body>
+        <div class='outbox'>
+            <div class='container1'>
+                <div class='formbox'>
+                 <input type="text" placeholder="Name" id='name'>
+                 <input type="email" placeholder="Email" id='email'><br>
+                 <input type="number" placeholder="Age" id='age'>
+                 <input type="number" placeholder="Phone no" id='phone'><br>
+                 <input type="text" placeholder="State" id='state'>
+                 <input type="text" placeholder="City" id='city'>
+                 <input type="text" placeholder="Country" id='country'>
+                 <div>
+                     <input type="radio" id='male' name='gender'><label for='male' style='color:white'>Male</label>
+                     <input type="radio" id='female' name='gender'><label for='female' style='color:white'> Female</label>
+                 </div>
+                 <div>
+                    <input type="checkbox" id='red' name='color'><label for='red' style='color:white'>Red</label>
+                    <input type="checkbox" id='orange' name='color'><label for='orange' style='color:white'>Orange</label>
+                 </div>
+                 <input type="text" placeholder="Message" id='message' style='padding-bottom: 50px;padding-right: 120px;'><br>
+                 <button onclick='submit()'>Submit</button>
+                </div>
+            </div>
+            <div class='container2'>
+              <table border="1">
+                  <tr>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Age</th>
+                      <th>Phone no</th>
+                      <th>State</th>
+                      <th>City</th>
+                      <th>Country</th>
+                  </tr>
+                  <tr>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                      <td></td>
+                  </tr>
+              </table>
+
+            </div>
+            <script src="form.js">
+            </script>
+        </div>
+    </body> 
+</html>
